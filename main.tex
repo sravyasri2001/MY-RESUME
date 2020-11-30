@@ -1,0 +1,123 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Virigineni}{ Sravya Sri}
+\address{15-1-7,Mitta Bazaar,Near FishMarket,Narasaraopet,522601}
+\phone[mobile]{+91~8247262523}
+\email{sravyasriv2001@gmail.com}
+\social[linkedin]{sravya-sri-virigineni-9a642b166}
+\social[github]{sravyasri2001}
+\social[hackerrank]{}
+\photo[64pt][0.4pt]{Whiteboard 26-Jul-2020-1}
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Career Objective}
+\cventry{}{\normalfont Seeking a challenging career in a reputable organization to update my skillset and gain practical experience,while making a significant contribution to the company}{}{}{}{}
+
+\section{Education}
+\cventry{2018--2022}{BTech}{Computer Science and Engineering}{\newline Gayatri Vidya Parishad College of Engineering Autonomous,Visakhapatnam.}{\textit{9.52}}{}  % arguments 3 to 6 can be left empty
+\cventry{2018}{Class XII}{MPC}{\newline Bhavana Junior College,Narasaraopet.}{\textit{97.8\%}}{}
+\cventry{2016}{Class X}{}{\newline Sindhu High School,Narasaraopet.}{\textit{10.0/10.0}}{}
+
+\section{Projects}
+\cventry{Dec2019--Feb2020}{Pothole Challenge,Smart India Hackathon(SIH),2020}{}{\newline It is a 2-phase model.A website using HTML,CSS,Javascript,Firebase was
+    developed for civic Authorities to view complaints.For app based interface flutter was used with dart.Pothole detection
+    is done using ML with Python.Our team stood in top 7 out of 35
+    proposed projects.
+}{}{}
+
+\section{Technical Skills}
+\cvlistitem{Programming Languages: Java, C/C++, Python}
+\cvlistitem{Database Management Systems: MySQL}
+\cvlistitem{Web Development: HTML, CSS,JavaScript,JSP ,JAVA Servlets}
+\cvlistitem{Version Control Systems: Git}
+\cvlistitem{Operating Systems: Windows,Linux}
+
+\section{Technical Activities}
+
+\cventry{August 2020}{Participated in TCS Codevita Season 9 Contest}{}{\newline It is a coding contest conducted by tcs campus commune,where I stood at 2143
+position out of 1.85 lakh participants}{}{}
+\cventry{May 2020}{Participated in Google KickStart Round C 2020.}{}{\newline It is a coding competition where I solved a few Logic based problems and secured 8495th position
+}{}{}
+\cventry{February 2020}{Participated in Google HashCode 2020}{}{\newline  It is a team based programming competition,where we were asked to
+   Solve Real life problems.Our team secured 8825th position}{}{}
+
+
+\section{Courses}
+
+\cventry{July 2020}{Version Control using GIT}{Udacity}{}{\newline This course introduces the use of version control in software development with Git as the Version Control System and GitHub to facilitate collaboration}{}
+\cventry{May 2020}{Algorithmic Toolbox}{Coursera}{}{\newline This Certification Course deals with major Algorithmic concepts like Time
+    complexities ,Build Greedy Algorithms,Divide and conquer,Dynamic Programming
+}{}
+\cventry{May 2020}{Python Data Structures}{Coursera}{}{\newline   This course provides with the basics of python.And it deals with files,
+    dictionaries,Tuples, lists
+}{}
+\cventry{Aug-Dec 2019}{ Explore ML Intermediate track}{Google}{}{\newline  It is a google Sponsored Programme for students to get started with
+   Machine Learning.I have worked on few datasets using Linear and 
+   Logistic Regressions.
+}{}
+\section{Organizations}
+\cventry{2020-Present}{\normalfont Competitive Programming Lead at Developer Student Club GVP core team}{}{}{}{}
+\cventry{2020-Present}{\normalfont Member of Designing team of Youth Enlightening Society}{}{}{}{}
+
+\cventry{2019-Present}{\normalfont Member of Rotaract Club of GVP}{}{}{}{}
+
+\section{References}
+\cvlistitem{Dr.P Krishna Subba Rao
+ \newline   Professor and Head Of the Department
+\newline Department of Computer Science and Engineering, GVPCE Visakhapatnam \newline Email:krishnasubbarao@gvpce.ac.in
+\newline Phone: +91 9848480916
+ \newline}
+\cvlistitem{Dr.D.N.D Harini
+ \newline Associate Professor \newline Department Of Computer Science and Engineering, GVPCE Visakhapatnam\newline Email: harinidhara@gvpce.ac.in
+\newline Phone: 9177752773
+}
+
+\section{}
+I hereby declare that the above-furnished information is true to the best of my knowledge and belief.
+\newline
+\newline
+\newline
+Virigineni Sravya Sri
+
+\end{document}
+
+%% end of file `template.tex'
